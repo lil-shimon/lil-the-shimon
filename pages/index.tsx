@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Header } from '../components/organisms/header'
 
 const Home: NextPage = () => {
   return (
@@ -7,7 +8,8 @@ const Home: NextPage = () => {
       <Head>
         <title>Lil The Shimon</title>
       </Head>
-      <h1 className="p-20 text-red-500">Tailwind test</h1>
+
+      <Header />
     </div>
   )
 }
