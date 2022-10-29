@@ -5,6 +5,7 @@ export const Header = () => {
   return (
     <>
       <header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center">
+        {/* left side (social icons)*/}
         <motion.div
           initial={{
             x: -500,
@@ -38,6 +39,7 @@ export const Header = () => {
           />
         </motion.div>
 
+        {/* right side (email)*/}
         <motion.div
           initial={{
             x: 500,
