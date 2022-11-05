@@ -9,9 +9,10 @@ const Home: NextPage = () => {
       <Head>
         <title>Lil The Shimon</title>
       </Head>
+
       <Header />
 
-      <section id="hero">
+      <section id="hero" className="snap-center">
         <Hero />
       </section>
     </div>
