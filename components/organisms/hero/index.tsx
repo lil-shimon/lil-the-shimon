@@ -7,7 +7,7 @@ export const Hero: FC = () => {
     words: [
       "Hi, I'm Lil shimon",
       'Guy-who-loves-Monster.tsx',
-      '<ButLovesToCodeMode />',
+      '<ButLovesToCodeMore />',
     ],
     loop: true,
     delaySpeed: 2000,
@@ -20,9 +20,14 @@ export const Hero: FC = () => {
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="https://avatars.githubusercontent.com/u/69175188?v=4"
       />
-      <h1>
-        <span>{text}</span>
-      </h1>
+      <div>
+        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
+          Software Engineer{' '}
+        </h2>
+        <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
+          <span className="mr-3">{text}</span>
+        </h1>
+      </div>
     </div>
   )
 }
