@@ -1,0 +1,1 @@
+export const K_CURSOR_COLOR = "#F7AB0A"
