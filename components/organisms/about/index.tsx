@@ -33,7 +33,7 @@ export const About: FC = () => {
           <span className="underline decoration-[#F8AB0A]">little</span>{' '}
           background
         </h4>
-        <p className="text-sm">
+        <p className="text-base">
           I am Lil shimon. dummy contents here. I am Lil shimon. dummy contents
           here. I am Lil shimon. dummy contents here. I am Lil shimon. dummy
           contents here. I am Lil shimon. dummy contents here. I am Lil shimon.
