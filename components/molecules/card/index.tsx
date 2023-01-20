@@ -17,7 +17,13 @@ export const ExperienceCard: FC = () => {
         src={QUE_IMAGE}
         alt="company_img"
       />
-      <div className="px-0 md:px-10">
+      <motion.div
+        initial={{ x: -100, opacity: 0 }}
+        transition={{ duration: 1.5 }}
+        whileInView={{ x: 100, opacity: 1 }}
+        viewport={{ once: true }}
+        className="px-0 md:px-10"
+      >
         <h4 className="text-4xl font-light">Project Manager</h4>
         <p className="font-bold text-2xl mt-1">Questar INC</p>
         <div className="flex space-x-2 my-2">
@@ -35,7 +41,7 @@ export const ExperienceCard: FC = () => {
           <li>summary points test content here. this is looking great</li>
           <li>summary points test content here. this is looking great</li>
         </ul>
-      </div>
+      </motion.div>
     </article>
   )
 }
