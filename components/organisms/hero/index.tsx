@@ -22,7 +22,7 @@ export const Hero: FC = () => {
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="https://avatars.githubusercontent.com/u/69175188?v=4"
       />
-      <div className='z-20'>
+      <div className="z-20">
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer{' '}
         </h2>
@@ -37,10 +37,10 @@ export const Hero: FC = () => {
           <Link href="#experience">
             <button className="heroButton">Experience</button>
           </Link>
-          <Link href="skills">
+          <Link href="#skills">
             <button className="heroButton">Skills</button>
           </Link>
-          <Link href="projects">
+          <Link href="#projects">
             <button className="heroButton">Projects</button>
           </Link>
         </div>
