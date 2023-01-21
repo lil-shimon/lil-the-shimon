@@ -4,6 +4,7 @@ import { About } from '../components/organisms/about'
 import { WorkExperience } from '../components/organisms/experience'
 import { Header } from '../components/organisms/header'
 import { Hero } from '../components/organisms/hero'
+import { Projects } from '../components/organisms/project'
 import { Skills } from '../components/organisms/skill'
 
 const Home: NextPage = () => {
@@ -26,6 +27,9 @@ const Home: NextPage = () => {
       </section>
       <section id="skills" className="snap-center">
         <Skills />
+      </section>
+      <section id="projects" className="snap-center">
+        <Projects />
       </section>
     </div>
   )
