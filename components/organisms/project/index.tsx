@@ -24,7 +24,7 @@ export const Projects: FC = () => {
               <div className="space-y-10 px-0 md:px-10 max-w-6xl">
                 <h4 className="text-4xl font-semibold text-center">
                   <span className="underline decoration-[#F8AB0A]/50">
-                    Case study {project} of {projects.length}:{" "}
+                    Case study {project} of {projects.length}:{' '}
                   </span>
                   Netflix Clone
                 </h4>

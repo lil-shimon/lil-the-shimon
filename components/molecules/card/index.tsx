@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { QUE_IMAGE, REACT_IMAGE } from '../../../utils/images'
+import { images } from '../../../utils/images'
 import { motion } from 'framer-motion'
 
 export const ExperienceCard: FC = () => {
@@ -14,7 +14,7 @@ export const ExperienceCard: FC = () => {
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
         className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-        src={QUE_IMAGE}
+        src={images.questar}
         alt="company_img"
       />
       <motion.div
@@ -28,7 +28,7 @@ export const ExperienceCard: FC = () => {
         <p className="font-bold text-2xl mt-1">Questar INC</p>
         <div className="flex space-x-2 my-2">
           <img
-            src={REACT_IMAGE}
+            src={images.react}
             alt="tech-icon"
             className="rounded-full w-12 object-cover object-center"
           />
