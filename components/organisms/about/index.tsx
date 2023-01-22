@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { motion } from 'framer-motion'
-import { LA_IMAGE } from '../../../utils/images'
+import { images } from '../../../utils/images'
 
 export const About: FC = () => {
   return (
@@ -18,7 +18,7 @@ export const About: FC = () => {
         transition={{ duration: 2.0, opacity: 0 }}
         whileInView={{ x: 0 }}
         viewport={{ once: true }}
-        src={LA_IMAGE}
+        src={images.avatar}
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
       <motion.div

@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { REACT_IMAGE } from '../../../utils/images'
+import { images } from '../../../utils/images'
 import { motion } from 'framer-motion'
 
 export const Projects: FC = () => {
@@ -18,7 +18,7 @@ export const Projects: FC = () => {
                 transition={{ duration: 1.2 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
-                src={REACT_IMAGE}
+                src={images.react}
                 alt="project-img"
               />
               <div className="space-y-10 px-0 md:px-10 max-w-6xl">

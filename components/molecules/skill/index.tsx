@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { motion } from 'framer-motion'
-import { REACT_IMAGE } from '../../../utils/images'
+import { images } from '../../../utils/images'
 
 interface Props {
   directionLeft?: boolean
@@ -15,7 +15,7 @@ export const Skill: FC<Props> = ({ directionLeft }) => {
         }}
         transition={{ duration: 1 }}
         whileInView={{ opacity: 1, x: 0 }}
-        src={REACT_IMAGE}
+        src={images.react}
         className="rounded-full border border-gray-50- object-cover w-24 h-24 xl:w-32 x:h-32 md:w-28 md:h-28 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
       <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 md:w-28 md:h-28 xl:w-32 xl:h-32 rounded-full z-0'>
