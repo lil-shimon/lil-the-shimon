@@ -9,10 +9,16 @@
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
-    "indentSize": "tab",
-    "indentStyle": "2",
+    "indentSize": 2,
+    "indentStyle": "tab",
     "lineWidth": 80,
-    "ignore": [],
-    "javascript.formatter.quoteStyle": "single"
+    "ignore": []
+  },
+  "javascript": {
+    "formatter": {
+      "quoteStyle": "single",
+      "trailingComma": "none",
+      "semicolons": "asNeeded"
+    }
   }
 }

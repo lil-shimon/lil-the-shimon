@@ -1,6 +1,6 @@
-import { FC } from "react";
-import { motion } from "framer-motion";
-import { ExperienceCard } from "../../molecules/card";
+import { FC } from 'react'
+import { motion } from 'framer-motion'
+import { ExperienceCard } from '../../molecules/card'
 
 export const WorkExperience: FC = () => {
 	return (
@@ -20,5 +20,5 @@ export const WorkExperience: FC = () => {
 				<ExperienceCard />
 			</div>
 		</motion.div>
-	);
-};
+	)
+}
