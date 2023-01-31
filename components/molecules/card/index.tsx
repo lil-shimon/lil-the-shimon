@@ -1,6 +1,6 @@
-import { FC } from "react";
-import { images } from "../../../utils/images";
-import { motion } from "framer-motion";
+import { FC } from 'react'
+import { images } from '../../../utils/images'
+import { motion } from 'framer-motion'
 
 export const ExperienceCard: FC = () => {
 	return (
@@ -8,7 +8,7 @@ export const ExperienceCard: FC = () => {
 			<motion.img
 				initial={{
 					y: -100,
-					opacity: 0,
+					opacity: 0
 				}}
 				transition={{ duration: 1.5 }}
 				whileInView={{ y: 0, opacity: 1 }}
@@ -43,5 +43,5 @@ export const ExperienceCard: FC = () => {
 				</ul>
 			</motion.div>
 		</article>
-	);
-};
+	)
+}

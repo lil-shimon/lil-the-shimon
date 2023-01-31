@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
+import { FC } from 'react'
+import { PhoneIcon, MapPinIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
 
 export const Contact: FC = () => {
 	return (
@@ -9,7 +9,7 @@ export const Contact: FC = () => {
 			</h3>
 			<div className="flex flex-col space-y-10">
 				<h4 className="text-4xl font-semibold text-center">
-					I have got just what you need.{" "}
+					I have got just what you need.{' '}
 					<span className="decoration[#F7AB0A]/50 underline">Let's Talk</span>
 				</h4>
 
@@ -29,5 +29,5 @@ export const Contact: FC = () => {
 				</div>
 			</div>
 		</div>
-	);
-};
+	)
+}

@@ -1,6 +1,6 @@
-import { FC } from "react";
-import { motion } from "framer-motion";
-import { Skill } from "../../molecules/skill";
+import { FC } from 'react'
+import { motion } from 'framer-motion'
+import { Skill } from '../../molecules/skill'
 
 export const Skills: FC = () => {
 	return (
@@ -27,5 +27,5 @@ export const Skills: FC = () => {
 				<Skill />
 			</div>
 		</motion.div>
-	);
-};
+	)
+}
