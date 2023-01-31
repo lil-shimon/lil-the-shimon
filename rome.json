@@ -10,9 +10,8 @@
     "enabled": true,
     "formatWithErrors": false,
     "indentSize": 2,
-    "indentStyle": "tab",
-    "lineWidth": 80,
-    "ignore": []
+    "indentStyle": "space",
+    "lineWidth": 80
   },
   "javascript": {
     "formatter": {
