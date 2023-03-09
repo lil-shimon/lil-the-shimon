@@ -23,10 +23,21 @@ export const Contact: FC = () => {
             <p className="text-2xl">shimon101018@gmail.com</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
             <p className="text-2xl">Address</p>
           </div>
         </div>
+        <form className="flex flex-col space-y-2 w-fit mx-auto">
+          <div className="flex space-x-2">
+            <input className="contactInput" type="text" placeholder="Name" />
+            <input className="contactInput" type="email" placeholder="Email" />
+          </div>
+
+          <input className="contactInput" type="text" placeholder="Subject" />
+
+          <textarea className="contactInput" placeholder="Message" />
+          <button type="submit" className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-lg">Submit</button>
+        </form>
       </div>
     </div>
   )
